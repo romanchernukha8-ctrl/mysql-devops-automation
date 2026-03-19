@@ -15,31 +15,30 @@ This project demonstrates how python CLI can start containers, execute sql, upda
 
 Developer
    ↓
-GitHub
+Python CLI Tool
    ↓
-Docker Image
+Docker Compose
    ↓
-AWS ECR
+MySQL + phpMyAdmin Containers
    ↓
-Kubernetes (EKS)
+Database Operations (SQL / Update / Backup)
    ↓
-LoadBalancer
-   ↓
-User
+Backup Files (Local Storage)
 
 # Project structure
 
-Структура 
+## Project Structure
 
 ## Project Structure
 
 .
-├── app.py
+├── new_tull.py
+├── docker-compose.yml
 ├── requirements.txt
-├── Dockerfile
-├── k8s
-│   ├── deployment.yaml
-│   └── service.yaml
+├── .env.example
+├── .gitignore
+├── .gitlab-ci.yml
+├── backups/
 └── README.md
 
 # How to run
@@ -51,13 +50,15 @@ User
 scrinshot
 
 
-Мини DevOps-проект:
-- Docker Compose для MySQL + phpMyAdmin
-- Python CLI для:
-  - запуска контейнеров
-  - выполнения SQL-запросов
-  - обновления данных
-  - резервного копирования базы
+## Mini DevOps Project
 
-Технологии:
-Python, Docker, MySQL, argparse, pymysql, dotenv
+- Docker Compose setup for MySQL and phpMyAdmin
+- Python CLI tool for:
+  - starting and managing containers
+  - executing SQL queries
+  - updating database records
+  - creating database backups
+
+## Technologies
+
+Python, Docker, MySQL, argparse, pymysql, python-dotenv
