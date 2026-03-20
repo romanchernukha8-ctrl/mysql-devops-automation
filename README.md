@@ -25,12 +25,7 @@ Database Operations (SQL / Update / Backup)
    ↓
 Backup Files (Local Storage)
 
-# Project structure
-
-## Project Structure
-
-## Project Structure
-
+## Project Structre
 .
 ├── new_tull.py
 ├── docker-compose.yml
