@@ -13,6 +13,7 @@ This project demonstrates how python CLI can start containers, execute sql, upda
 
 # Arhitecture project
 
+```
 Developer
    ↓
 Python CLI Tool
@@ -24,8 +25,11 @@ MySQL + phpMyAdmin Containers
 Database Operations (SQL / Update / Backup)
    ↓
 Backup Files (Local Storage)
+```
 
 ## Project Structre
+
+```
 .
 ├── new_tull.py
 ├── docker-compose.yml
@@ -35,6 +39,7 @@ Backup Files (Local Storage)
 ├── .gitlab-ci.yml
 ├── backups/
 └── README.md
+```
 
 # How to run
 1. Git clone https://github.com/romanchernukha8-ctrl/mysql-devops-automation.git
